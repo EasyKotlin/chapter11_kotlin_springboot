@@ -37,6 +37,13 @@ class ArticleController {
         return articleRepository?.findById(id)
     }
 
+
+    @GetMapping("detailArticleView")
+    fun detailArticleView(id: Long, model: Model): ModelAndView {
+        model.addAttribute("article", articleRepository?.findById(id)?.get())
+        return ModelAndView("detailArticleView")
+    }
+
     @GetMapping("findByTitle")
     @ResponseBody
     fun findByTitle(title: String): MutableList<Article>? {

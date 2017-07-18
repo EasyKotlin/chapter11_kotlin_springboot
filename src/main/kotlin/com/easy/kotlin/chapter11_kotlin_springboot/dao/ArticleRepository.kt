@@ -23,6 +23,7 @@ like %?1%
  */
 
 interface ArticleRepository : CrudRepository<Article, Long> {
+    @Query("SELECT a FROM #{#entityName} a order by a.gmtCreated desc")
     override fun findAll(): MutableList<Article>
 
     @Query(value = "SELECT * FROM blog.article where title like %?1%", nativeQuery = true)

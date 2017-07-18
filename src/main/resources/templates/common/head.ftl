@@ -20,6 +20,13 @@
     <script src="/flatui/dist/js/vendor/html5shiv.js"></script>
     <script src="/flatui/dist/js/vendor/respond.min.js"></script>
 
-    <link rel="stylesheet" href="/blog/blog.css">
+    <link href="/mditor-master/dist/css/mditor.css" rel="stylesheet">
+    <script src="/mditor-master/dist/js/mditor.js"></script>
+
+    <link href="/blog/blog.css" rel="stylesheet">
     <script src="/blog/blog.js"></script>
+    <script src="/blog/highlight.pack.js"></script>
+    <link href="/blog/highlight.css" rel="stylesheet">
+
+
 </head>

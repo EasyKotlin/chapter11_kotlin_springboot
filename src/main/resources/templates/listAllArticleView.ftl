@@ -21,7 +21,7 @@
         <#list articles as article>
         <tr>
             <td>${article.id}</td>
-            <td>${article.title}</td>
+            <td><a target="_blank" href="detailArticleView?id=${article.id}">${article.title}</a></td>
             <td>${article.author}</td>
             <td>${article.gmtModified}</td>
             <td><a href="#" target="_blank">编辑</a></td>
