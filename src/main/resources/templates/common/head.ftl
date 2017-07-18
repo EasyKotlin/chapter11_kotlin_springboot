@@ -23,6 +23,9 @@
     <link href="/mditor-master/dist/css/mditor.css" rel="stylesheet">
     <script src="/mditor-master/dist/js/mditor.js"></script>
 
+    <link href="/datatables/media/css/jquery.dataTables.css" rel="stylesheet">
+    <script src="/datatables/media/js/jquery.dataTables.js"></script>
+
     <link href="/blog/blog.css" rel="stylesheet">
     <script src="/blog/blog.js"></script>
     <script src="/blog/highlight.pack.js"></script>

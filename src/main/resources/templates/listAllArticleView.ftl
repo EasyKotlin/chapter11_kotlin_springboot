@@ -8,7 +8,7 @@
 
     <a href="addArticleView" target="_blank" class="btn btn-primary pull-right add-article">写文章</a>
 
-    <table class="table table-responsive table-bordered">
+    <table id="articlesDataTable" class="table table-responsive table-bordered">
         <thead>
         <th>序号</th>
         <th>标题</th>
