@@ -27,7 +27,7 @@ class ArticleController {
     @GetMapping("listAllArticleView")
     fun listAllArticleView(model: Model): ModelAndView {
         model.addAttribute("articles", articleRepository?.findAll())
-        return ModelAndView("list")
+        return ModelAndView("listAllArticleView")
     }
 
 
