@@ -906,7 +906,7 @@ Hibernate: insert into article (author, content, deleted_date, gmt_created, gmt_
 }
 ```
 
-下面我们来写新建文章的页面。我们写文章的跳转页面路径是<a href="addArticleView">, 我们先来新建一个写文章页面addArticleView.ftl：
+下面我们来写新建文章的页面。我们写文章的跳转页面路径是 `<a href="addArticleView">` , 我们先来新建一个写文章页面addArticleView.ftl：
 
 ```
 <!DOCTYPE html>
